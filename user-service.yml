@@ -1,0 +1,21 @@
+spring:
+  datasource:
+    driver-class-name: org.h2.Driver
+    url: jdbc:h2:mem:testdb
+    username: sa
+    password: "{cipher}AQCiHi9w6NEdrVp74E7GaBK+w/Ap7xwiB8iqqNW7bWMOvJ662KvHGULx9jQcZxh6dD1hSoQYmW53NDTKgUipf4ly3l8CLFfVjj2ZPG6p2VeU+ZtizMRvrQ3LquQteGvP0oixAx2qf5pwLUqsxBzKFnAd7jHxOTRC5v/rDILot6WmhjaIOHCZNP4uTkbVVetWqI7Td7UpztRMr54EwWbZTtsfM8uSCgWlrvo8uHcg9a+n0kxC/XRC16qFVzrf21rvCeVgpgZR3mM7K1yYNTbRL5bGMgY6RfxVmTdmmOZ/x7cUvWkgF4so+9BhLjQhg6avlP+9qIfkSyN0xIIk+Qji8lhPQFcWOBoVBbS/UTLcnm9rKfpy6vFTrsHZEG9PnvVcGgU="
+# token:
+#   expiration_time: 864000000
+#   secret: user_token_native_user_serivce
+
+token:
+  expiration_time: 864000000
+  secret: "{cipher}AQCFW4L0fjiCgb56J728tqjSJEq+NLoj9dl7hHfYOcndfmU+YQlsLwHwH5uhrqssnqjzhcNMJtMvzFFOQ48LVKGkyEWOMXcCT7aaNQqq45ECpqJC36vUeZJ3xrjnKq2bl4dwaLBG0nU0fpeZdQEgYeg8EMilrgUvsiO0MmSw9Kj5AEcAulhWadzymanKuo+lFxKgc3V89y0idtX2sqiYK5Ao5IEgLmHtM5xYS8x71ATz1RR+ngm299Y+xDrDi4cWYdzOLVCm4UDyqMB1GliZdZSM/0WrxrW6eLZNmoKfBWk3Q/H6ukgCnwZr2wrhjQUT9NldCF6tuj2fSvtsJofJWNfQUZrfiil8fOc57eGkzykWWlS9/2MUWDSOr/T1ZqNepBCAdC5vkipfRi/P0iWaVLwQ"
+
+gateway:
+  ip: 127.0.0.1
+
+order_service:
+  url: http://ORDER-SERVICE/order-service/%s/orders
+  exception:
+    orders_is_empty: 주문 정보가 비어 있습니다.
