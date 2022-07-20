@@ -4,9 +4,10 @@ spring:
     url: jdbc:h2:mem:testdb
     username: sa
     password: "{cipher}AQCiHi9w6NEdrVp74E7GaBK+w/Ap7xwiB8iqqNW7bWMOvJ662KvHGULx9jQcZxh6dD1hSoQYmW53NDTKgUipf4ly3l8CLFfVjj2ZPG6p2VeU+ZtizMRvrQ3LquQteGvP0oixAx2qf5pwLUqsxBzKFnAd7jHxOTRC5v/rDILot6WmhjaIOHCZNP4uTkbVVetWqI7Td7UpztRMr54EwWbZTtsfM8uSCgWlrvo8uHcg9a+n0kxC/XRC16qFVzrf21rvCeVgpgZR3mM7K1yYNTbRL5bGMgY6RfxVmTdmmOZ/x7cUvWkgF4so+9BhLjQhg6avlP+9qIfkSyN0xIIk+Qji8lhPQFcWOBoVBbS/UTLcnm9rKfpy6vFTrsHZEG9PnvVcGgU="
+
 # token:
 #   expiration_time: 864000000
-#   secret: user_token_native_user_serivce
+#   secret: user_token_20220720
 
 token:
   expiration_time: 864000000
