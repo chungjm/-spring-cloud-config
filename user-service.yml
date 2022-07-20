@@ -14,7 +14,7 @@ token:
   secret: "{cipher}AQCFW4L0fjiCgb56J728tqjSJEq+NLoj9dl7hHfYOcndfmU+YQlsLwHwH5uhrqssnqjzhcNMJtMvzFFOQ48LVKGkyEWOMXcCT7aaNQqq45ECpqJC36vUeZJ3xrjnKq2bl4dwaLBG0nU0fpeZdQEgYeg8EMilrgUvsiO0MmSw9Kj5AEcAulhWadzymanKuo+lFxKgc3V89y0idtX2sqiYK5Ao5IEgLmHtM5xYS8x71ATz1RR+ngm299Y+xDrDi4cWYdzOLVCm4UDyqMB1GliZdZSM/0WrxrW6eLZNmoKfBWk3Q/H6ukgCnwZr2wrhjQUT9NldCF6tuj2fSvtsJofJWNfQUZrfiil8fOc57eGkzykWWlS9/2MUWDSOr/T1ZqNepBCAdC5vkipfRi/P0iWaVLwQ"
 
 gateway:
-  ip: 127.0.0.1
+  ip: 172.18.0.5
 
 order_service:
   url: http://ORDER-SERVICE/order-service/%s/orders
